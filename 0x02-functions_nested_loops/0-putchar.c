@@ -1,10 +1,21 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-int _putchar(char c)
+/**
+  *main - print _putchar anda new line
+  *Decription -prints _putchar followed by a new line
+  * Return: Always 0
+  */
+int main(void)
 {
-	return putchar(c);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+
+	return (0);
 }
